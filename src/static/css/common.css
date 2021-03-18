@@ -1,0 +1,70 @@
+/*头部公共部分css start*/
+
+.pageheader-box {
+    /*padding: 16px 0px;*/
+    background-color: rgb(238, 238, 238);
+    /*color: white;*/
+    font-size: 17px;
+    height: 44px;
+    line-height: 44px;
+    /*position: fixed;*/
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+    position: fixed;
+}
+
+.pageheader-box i {
+    vertical-align: middle;
+}
+
+.pageheader-gray-text {
+    color: #666666;
+    font-size: 14px;
+}
+
+/*设置整体距离表头的距离 */
+.base-body {
+    margin-top: 44px;
+    margin-bottom: 50px;
+}
+
+/*头部公共部分css end*/
+
+
+/*标准表头样式 start*/
+.van-nav-bar {
+    background-color: rgb(238, 238, 238);
+}
+
+.van-nav-bar__text {
+
+    color: gray;
+}
+
+.van-nav-bar .van-icon {
+    color: gray;
+    font-size: large;
+}
+
+/*标准表头样式 end*/
+.small-iCon .van-icon  {
+    font-size: 16px !important;
+    margin-right: 10px;
+}
+
+.mid-iCon .van-icon  {
+    font-size: 24px !important;
+    margin-right: 10px;
+}
+.large-icon{
+    font-size: 32px !important;
+    margin-right: 10px;
+}
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
